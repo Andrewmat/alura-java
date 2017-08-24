@@ -1,6 +1,8 @@
 package br.com.alura.java.model;
 
-public class Account {
+import br.com.alura.java.exception.InsufficientFundsException;
+
+public abstract class Account {
 
   public Account() {
     this.balance = 0.0;
@@ -11,20 +13,21 @@ public class Account {
     return balance;
   }
 
-  public void deposit(Double value) throws Exception {
+  public void deposit(Double value) {
     if (value < 0) {
-      throw new Exception("Account::deposit only works for positive values");
+      throw new IllegalArgumentException("Account::deposit only works for positive values");
     }
     this.balance += value;
   }
-  public void draw(Double value) throws Exception {
+  public void draw(Double value) throws InsufficientFundsException {
     if (value < 0) {
-      throw new Exception("Account::draw only works for positive values");
+      throw new IllegalArgumentException("Account::draw only works for positive values");
+    }
+    if (balance < value) {
+      throw new InsufficientFundsException(balance);
     }
     this.balance -= value;
   }
 
-  public void update(Double tax) {
-    this.balance += this.balance * tax;
-  }
+  public abstract void update(Double tax);
 }

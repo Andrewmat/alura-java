@@ -1,4 +1,4 @@
-package br.com.alura.java.system;
+package br.com.alura.java.controller;
 
 import br.com.alura.java.model.Account;
 

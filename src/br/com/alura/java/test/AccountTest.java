@@ -1,4 +1,4 @@
-package br.com.alura.java.main;
+package br.com.alura.java.test;
 
 import br.com.alura.java.model.Account;
 import br.com.alura.java.model.CheckingAccount;
@@ -6,9 +6,9 @@ import br.com.alura.java.model.SavingsAccount;
 
 public class AccountTest {
   public static void main(String[] args) {
-    Account account = new Account();
-    Account cAccount = new CheckingAccount();
-    Account sAccount = new SavingsAccount();
+    Account account = new CheckingAccount();
+    CheckingAccount cAccount = new CheckingAccount();
+    SavingsAccount sAccount = new SavingsAccount();
 
     try {
       account.deposit(1000.0);
