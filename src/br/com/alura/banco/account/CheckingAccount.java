@@ -1,4 +1,6 @@
-package br.com.alura.java.model;
+package br.com.alura.banco.account;
+
+import br.com.alura.banco.model.Taxable;
 
 public class CheckingAccount extends Account implements Taxable {
   public void update(Double tax) {

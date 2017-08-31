@@ -1,8 +1,8 @@
-package br.com.alura.java.test;
+package br.com.alura.banco;
 
-import br.com.alura.java.controller.IncomeTaxManager;
-import br.com.alura.java.model.CheckingAccount;
-import br.com.alura.java.model.LifeInsurance;
+import br.com.alura.banco.system.IncomeTaxManager;
+import br.com.alura.banco.account.CheckingAccount;
+import br.com.alura.banco.model.LifeInsurance;
 
 public class IncomeTaxManagerTest {
   public static void main(String[] args) {

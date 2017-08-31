@@ -1,4 +1,4 @@
-package br.com.alura.java.model;
+package br.com.alura.banco.account;
 
 public class SavingsAccount extends Account {
   @Override

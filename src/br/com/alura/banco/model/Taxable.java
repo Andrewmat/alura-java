@@ -1,4 +1,4 @@
-package br.com.alura.java.model;
+package br.com.alura.banco.model;
 
 public interface Taxable {
   Double calcTaxes();

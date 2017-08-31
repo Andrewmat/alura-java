@@ -1,7 +1,7 @@
-package br.com.alura.java.test;
+package br.com.alura.banco;
 
-import br.com.alura.java.model.CheckingAccount;
-import br.com.alura.java.model.Taxable;
+import br.com.alura.banco.account.CheckingAccount;
+import br.com.alura.banco.model.Taxable;
 
 public class TaxableTest {
   public static void main(String[] args) {

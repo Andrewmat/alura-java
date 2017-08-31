@@ -1,9 +1,9 @@
-package br.com.alura.java.test;
+package br.com.alura.banco;
 
-import br.com.alura.java.model.Account;
-import br.com.alura.java.model.CheckingAccount;
-import br.com.alura.java.model.SavingsAccount;
-import br.com.alura.java.controller.AccountUpdater;
+import br.com.alura.banco.account.Account;
+import br.com.alura.banco.account.CheckingAccount;
+import br.com.alura.banco.account.SavingsAccount;
+import br.com.alura.banco.system.AccountUpdater;
 
 public class AccountUpdaterTest {
   public static void main(String[] args) {

@@ -1,6 +1,6 @@
-package br.com.alura.java.controller;
+package br.com.alura.banco.system;
 
-import br.com.alura.java.model.Account;
+import br.com.alura.banco.account.Account;
 
 public class AccountUpdater {
 

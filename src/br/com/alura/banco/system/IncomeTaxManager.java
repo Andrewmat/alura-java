@@ -1,6 +1,6 @@
-package br.com.alura.java.controller;
+package br.com.alura.banco.system;
 
-import br.com.alura.java.model.Taxable;
+import br.com.alura.banco.model.Taxable;
 
 public class IncomeTaxManager {
   private Double total = 0.0;

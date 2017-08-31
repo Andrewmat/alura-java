@@ -1,4 +1,4 @@
-package br.com.alura.java.exception;
+package br.com.alura.banco.exception;
 
 public class InsufficientFundsException extends RuntimeException {
   private Double currentFunds;
